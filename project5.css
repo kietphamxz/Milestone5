@@ -1,0 +1,47 @@
+            h1 {
+                border:2px solid;
+                transition-property: font-size;
+                transition: 4s;
+                transition-timing-function: ease-out;
+                transition-delay: .2s;
+            }
+            h1:hover {
+                background-color: aqua;
+                font-size: 60px;
+            }
+
+
+            ul li:nth-child(even) {
+                background-color: blue;
+            }
+            ul li:nth-child(1) {
+                color:green;
+            }
+            ul {
+                font-size: 30px;
+                transition-duration: 3s;
+            }
+            ul:hover {
+                font-size:50px
+            }
+            article {
+                border:2px dashed;
+                transition-property: font-size;
+                transition: 4s;
+                transition-timing-function: ease-out;
+                transition-delay: .2s;
+            }
+            article:hover {
+                background-color: rgb(10, 73, 10);
+                font-size: 60px;
+            }
+
+            h3 {
+                font-size: 50px;
+                background-color: aquamarine;
+            }
+            
+            footer {
+                background-color: burlywood;
+                text-decoration: underline;
+            }
